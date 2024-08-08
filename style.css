@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#headline {
+    font-family: 'Koulen', monospace;
+    font-size: 8em;
+    height: 0.25em;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+#description {
+    display: flex;
+    flex-direction: column;
+}
+
+#cause {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+#cause p {
+    padding: 0 1.5em;
+}
+
+#prevention {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+}
+
+#prevention p {
+    font-size: 2em;
+}
+
+#prevention-detail {
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+}
+
+#desc1 {
+    flex-wrap: wrap;
+}
+
+#desc2 {
+    flex-wrap: wrap-reverse;
+}
+
+.desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.desc img {
+    width: 40%;
+    height: 36em;
+    object-fit: cover;
+}
+
+.explain {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 4em 5em;
+}
+
+.oohbaby {
+    font-family: 'Oooh Baby';
+    font-size: 3em;
+    font-weight: 400;
+    color: red;
+}
+
+.koulen-small {
+    font-family: 'Koulen';
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.red {
+    color: red;
+}
+
+.opensans {
+    font-family: 'open sans';
+    font-size: 2em;
+}
+
+.title {
+    font-family: 'Koulen';
+    font-size: 6em;
+    color: red;
+}
+
+.list {
+    font-family: 'Koulen';
+    font-size: 2em;
+    margin: 0;
+}
+
+.list-big {
+    font-family: 'Koulen';
+    font-size: 2em;
+    color: red;
+}
+
+@media only screen and (max-width: 900px) {
+    #headline {
+        font-size: 6em;
+        height: 0.75em;
+    }
+    #prevention-detail {
+        padding: 1.5em;
+    }
+    .oohbaby {
+        font-size: 2em;
+        margin: 0;
+    }
+    .opensans{
+        font-size: 1em;
+    }
+    .desc {
+        padding-bottom: 2em;
+    } 
+    .desc img {
+        width: 100%;
+        height: 20em;
+    }
+    .explain {
+        padding: 1.5em;
+    }  
+}
